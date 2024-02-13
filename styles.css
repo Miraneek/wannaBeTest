@@ -1,0 +1,238 @@
+body {
+    background-color: #222; /* Dark background color */
+    color: #fff; /* Text color */
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    gap: 20px;
+}
+
+#content {
+    text-align: center;
+}
+
+.fortnite{
+    width: 200px;
+    filter: blur(2px);
+    transition: 0.2s ease-in-out;
+    border: solid #cbcbcb 2px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.formular {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+    margin: auto;
+    font-size: 40px;
+}
+
+.formular h3 {
+    text-align: center;
+}
+
+.formular input {
+    padding: 8px;
+    font-size: 30px;
+}
+
+.formular span {
+    font-size: 20px;
+    color: #888;
+}
+
+.formular input[type="text"],
+.formular input[type="password"] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+
+.formular input[type="text"]:focus,
+.farmular input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.formular button{
+
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 12px 24px;
+    border: 0;
+    color: #fff;
+    background: #000a47;
+    line-height: 1.15;
+    font-size: 16px;
+}
+
+.formular button:hover {
+    transition: all .1s ease;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #1de9b6;
+}
+
+/* Basic styles for the button */
+.button-keyboard {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Animation for clicking effect */
+.button-keyboard:hover {
+    background-color: #2980b9;
+}
+
+/* Animation for the click effect */
+.button-keyboard:active {
+    transform: scale(0.95);
+}
+
+#list {
+    list-style: none;
+    padding: 0;
+}
+
+#list li {
+    margin-bottom: 10px; /* Adjust as needed */
+}
+
+#list button {
+    font-size: 60px; /* Adjust as needed */
+    padding: 5px 10px; /* Adjust as needed */
+    border: none;
+    background-color: #7e0ac0; /* Adjust as needed */
+    cursor: pointer;
+}
+
+#list button:hover {
+    background-color: #600991; /* Adjust as needed */
+}
+
+.game-container {
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: yellow 0px 0px 40px 10px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    width: 500px;
+}
+
+/* Header style */
+.game-container h1 {
+    color: #61dafb; /* Header text color */
+}
+
+/* Paragraph style */
+.game-container p {
+    color: #ccc; /* Paragraph text color */
+}
+
+/* Input box style */
+.game-container input {
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+}
+
+.game-container button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit-btn {
+    background-color: #61dafb;
+    color: #fff;
+}
+
+
+#new-game-btn {
+    background-color: #ff4500;
+    color: #fff;
+}
+
+#result{
+    font-size: 40px;
+    color: #ffd700;
+    font-weight: 750;
+}
+
+.links {
+    text-align: center;
+}
+
+.links h1 {
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.links a {
+    display: inline-block;
+    margin-right: 15px;
+    text-decoration: none;
+    color: #64b5f6;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.links a:hover {
+    background-color: #444;
+    color: #fff;
+    text-decoration: underline;
+}
+
+body{
+    position: relative;
+}
+
+.back{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.back a{
+    font-size: 40px;
+    color: red;
+    text-decoration: none;
+}
+
+.report {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.content p {
+    margin:0;
+}
